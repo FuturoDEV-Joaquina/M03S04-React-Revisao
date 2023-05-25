@@ -1,7 +1,12 @@
+import Title from "../../components/atoms/Title/Title";
+import Container from "../../components/templates/Container/Container";
+
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact</h1>
-    </div>
+    <Container>
+      <Title>
+        Contato
+      </Title>
+    </Container>
   )
 }
